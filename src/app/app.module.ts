@@ -7,10 +7,12 @@ import {AppRoutingModule} from "./app-routing.module";
 import {HomeModule} from "./home/home.module";
 import {HomeComponent} from "./home/home.component";
 import {DashboardComponent} from "./home/dashboard/dashboard.component";
+import { AuthComponent } from './modules/auth/auth.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    AuthComponent,
 
   ],
   imports: [
